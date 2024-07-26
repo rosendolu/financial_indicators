@@ -3,11 +3,7 @@
 [![Crates.io](https://img.shields.io/crates/v/financial_indicators.svg)](https://crates.io/crates/financial_indicators)
 [![Documentation](https://docs.rs/financial_indicators/badge.svg)](https://docs.rs/financial_indicators)
 
-A Rust library providing various financial algorithms, including KDJ and MACD indicators, for technical analysis.
-
-## Overview
-
-`financial_indicators` is a Rust library designed to help developers perform technical analysis on financial data. The library currently includes implementations for the KDJ and MACD indicators, with more indicators planned for future releases.
+A Rust library providing various financial algorithms, including but not limited to KDJ and MACD indicators, for technical analysis.
 
 ## Features
 
@@ -79,11 +75,11 @@ fn main() {
 
 ### Examples
 
-[examples](https://github.com/rosendolu/financial_indicators/tree/mian/examples)
+[examples](https://github.com/rosendolu/financial_indicators/tree/main/examples)
 
 ### Indicators Docs
 
-[examples](https://github.com/rosendolu/financial_indicators/tree/mian/docs)
+[indicator anatomy](https://github.com/rosendolu/financial_indicators/tree/main/docs)
 
 ## Contributing
 
