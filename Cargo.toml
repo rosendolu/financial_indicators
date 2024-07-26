@@ -1,0 +1,30 @@
+[package]
+name = "financial_indicators"
+version = "0.1.0"
+edition = "2021"
+authors = ["rosendofun <rosendofun@gmail.com>"]
+categories = ["development-tools", "finance", "algorithms", "data-processing"]
+keywords = [
+    "finance",
+    "indicators",
+    "math",
+    "KDJ",
+    "MACD",
+    "technical analysis",
+]
+description = """A library providing various financial algorithms including but not limited to the following
+- KDJ
+— MACD
+"""
+readme = 'README.md'
+license = "MIT"
+homepage = "https://github.com/rosendolu/financial_indicators"
+repository = "https://github.com/rosendolu/financial_indicators.git"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+
+[dev-dependencies]
+rand = "0.8.5"
