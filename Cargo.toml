@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["rosendofun <rosendofun@gmail.com>"]
 categories = ["development-tools", "finance", "algorithms", "data-processing"]
-keywords = ["finance", "indicators", "KDJ", "MACD", "technical analysis"]
+keywords = ["finance", "indicators", "KDJ", "MACD", "financial_indicators"]
 description = """A library providing various financial algorithms including but not limited to the following
 - KDJ
 — MACD
