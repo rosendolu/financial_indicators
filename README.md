@@ -1,4 +1,4 @@
-# Financial Indicators ![Last Commit](https://badgen.net/github/last-commit/rosendolu/financial_indicators?label=🟣%20Updated&labelColor=black&color=448AFF)
+# Financial Indicators ![Last Commit](https://badgen.net/github/last-commit/rosendolu/financial_indicators?label=🟣%20Updated&labelColor=black&color=448AFF&now=2024-09-05-13:49:47)
 
 [![Crates.io](https://img.shields.io/crates/v/financial_indicators.svg)](https://crates.io/crates/financial_indicators)
 [![Documentation](https://docs.rs/financial_indicators/badge.svg)](https://docs.rs/financial_indicators)
