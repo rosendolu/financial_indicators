@@ -13,5 +13,6 @@
   },
   "rust-analyzer.imports.granularity.group": "one",
   "rust-analyzer.imports.prefix": "crate",
-  "rust-analyzer.completion.autoimport.enable": true
+  "rust-analyzer.completion.autoimport.enable": true,
+  "cSpell.words": ["macd"]
 }

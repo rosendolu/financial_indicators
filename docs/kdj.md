@@ -5,24 +5,24 @@ The KDJ indicator is a technical analysis tool used to predict price movements i
 ## Formulas
 
 - **RSV (Raw Stochastic Value)**:
-  \[
+  $
   RSV = \frac{{\text{{Close}} - \text{{Low}}_{\text{{n}}}}}{{\text{{High}}_{\text{{n}}} - \text{{Low}}\_{\text{{n}}}}} \times 100
-  \]
+  $
 
 - **K Line**:
-  \[
+  $
   K = \frac{2}{3} \times K\_{\text{{previous}}} + \frac{1}{3} \times RSV
-  \]
+  $
 
 - **D Line**:
-  \[
+  $
   D = \frac{2}{3} \times D\_{\text{{previous}}} + \frac{1}{3} \times K
-  \]
+  $
 
 - **J Line**:
-  \[
+  $
   J = 3 \times K - 2 \times D
-  \]
+  $
 
 ## Example Calculation
 
