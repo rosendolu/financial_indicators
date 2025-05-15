@@ -1,0 +1,13 @@
+use financial_indicators::atr::average_true_range;
+
+fn main() {
+    let high = vec![48.70, 48.72, 48.90, 48.87, 48.82];
+    let low = vec![47.79, 48.14, 48.39, 48.37, 48.24];
+    let close = vec![48.16, 48.61, 48.75, 48.63, 48.74];
+    let period = 3;
+    let atr = average_true_range(&high, &low, &close, period);
+    println!("Average True Range (period = {}):", period);
+    for (i, value) in atr.iter().enumerate() {
+        println!("Day {}: {:?}", i + 1, value);
+    }
+}

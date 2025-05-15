@@ -1,3 +1,16 @@
+//!
+//! # Examples
+//!
+//! ```
+//! use financial_indicators::kdj::KDJ;
+//!
+//! let highs = vec![11.0, 12.0, 13.0, 14.0, 15.0, 16.0];
+//! let lows = vec![10.0, 9.0, 8.0, 7.0, 6.0, 5.0];
+//! let closes = vec![10.5, 11.0, 12.0, 13.0, 14.0, 15.0];
+//! let period = 3;
+//! let kdj_values = KDJ::new(&highs, &lows, &closes, period);
+//! assert_eq!(kdj_values.len(), 3);
+//! ```
 //! The KDJ indicator struct.
 //!
 //! KDJ is a technical analysis indicator used to measure overbought and oversold levels in stock trading.
@@ -7,6 +20,7 @@
 //! - `k`: The K value, which is a fast stochastic indicator.
 //! - `d`: The D value, a slow stochastic indicator.
 //! - `j`: The J value, which reflects the difference between K and D.
+#[derive(Debug)]
 pub struct KDJ {
     pub k: f64,
     pub d: f64,

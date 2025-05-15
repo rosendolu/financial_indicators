@@ -1,9 +1,19 @@
+//! # Examples
+//!
+//! ```
+//! use financial_indicators::macd::MACD;
+//!
+//! let closes = vec![1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0];
+//! let macd_values = MACD::new(&closes, 3, 6, 2);
+//! assert_eq!(macd_values.len(), closes.len() - 6 + 1);
+//! ```
 //! The MACD (Moving Average Convergence Divergence) structure
 //! representing the three key elements of the MACD indicator.
 //!
 //! - `macd`: The difference between the short and long-term EMAs.
 //! - `signal`: The EMA of the `macd`, known as the signal line.
 //! - `histogram`: The difference between the `macd` and the signal line.
+#[derive(Debug)]
 pub struct MACD {
     pub macd: f64,
     pub signal: f64,
