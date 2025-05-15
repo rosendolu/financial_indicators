@@ -4,35 +4,7 @@ version = "1.0.0"
 edition = "2021"
 authors = ["rosendofun <rosendofun@gmail.com>"]
 categories = ["development-tools", "finance", "algorithms"]
-keywords = [
-    "finance",
-    "indicators",
-    "KDJ",
-    "MACD",
-    "MA",
-    "EMA",
-    "DMI",
-    "ADX",
-    "TRIX",
-    "RSI",
-    "ROC",
-    "CCI",
-    "MOM",
-    "ATR",
-    "Bollinger Bands",
-    "STD",
-    "OBV",
-    "VOL",
-    "MFI",
-    "VWAP",
-    "SAR",
-    "PSY",
-    "Williams %R",
-    "CR",
-    "technical analysis",
-    "cryptocurrency",
-    "stock",
-]
+keywords = ["finance", "indicators", "cryptocurrency", "stock", "analysis"]
 description = """A Rust library providing a comprehensive suite of financial technical indicators for cryptocurrency and stock analysis. Includes trend, momentum, volatility, volume, and other common indicators such as:
 - MA (Moving Average)
 - EMA (Exponential Moving Average)
