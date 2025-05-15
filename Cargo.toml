@@ -1,13 +1,60 @@
 [package]
 name = "financial_indicators"
-version = "0.1.1"
+version = "1.0.0"
 edition = "2021"
 authors = ["rosendofun <rosendofun@gmail.com>"]
 categories = ["development-tools", "finance", "algorithms"]
-keywords = ["finance", "indicators", "KDJ", "MACD", "financial_indicators"]
-description = """A library providing various financial algorithms including but not limited to the following
-- KDJ
-— MACD
+keywords = [
+    "finance",
+    "indicators",
+    "KDJ",
+    "MACD",
+    "MA",
+    "EMA",
+    "DMI",
+    "ADX",
+    "TRIX",
+    "RSI",
+    "ROC",
+    "CCI",
+    "MOM",
+    "ATR",
+    "Bollinger Bands",
+    "STD",
+    "OBV",
+    "VOL",
+    "MFI",
+    "VWAP",
+    "SAR",
+    "PSY",
+    "Williams %R",
+    "CR",
+    "technical analysis",
+    "cryptocurrency",
+    "stock",
+]
+description = """A Rust library providing a comprehensive suite of financial technical indicators for cryptocurrency and stock analysis. Includes trend, momentum, volatility, volume, and other common indicators such as:
+- MA (Moving Average)
+- EMA (Exponential Moving Average)
+- MACD (Moving Average Convergence Divergence)
+- DMI/ADX (Directional Movement Index / Average Directional Index)
+- TRIX (Triple Exponential Average)
+- RSI (Relative Strength Index)
+- ROC (Rate of Change)
+- CCI (Commodity Channel Index)
+- Stochastic Oscillator (KDJ)
+- MOM (Momentum)
+- ATR (Average True Range)
+- Bollinger Bands
+- STD (Standard Deviation)
+- OBV (On-Balance Volume)
+- VOL (Volume)
+- MFI (Money Flow Index)
+- VWAP (Volume Weighted Average Price)
+- SAR (Parabolic SAR)
+- PSY (Psychological Line)
+- Williams %R
+- CR (Cumulative Resistance)
 """
 readme = 'README.md'
 license = "MIT"
